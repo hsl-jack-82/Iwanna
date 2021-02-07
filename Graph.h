@@ -11,18 +11,17 @@ struct Frame
 	int x = 30;
 	int y = 20;
 	int pic[30][20];
-	/*
+	int** picPtr;
 	Frame(int xlen, int ylen)
 	{
 		x = xlen;
 		y = ylen;
-		pic = new int*[x];
+		picPtr = new int*[x];
 		for (int i = 0; i < y; i++)
 		{
-			pic[i] = new int[y];
+			picPtr[i] = new int[y];
 		}
 	}
-	*/
 	Frame()
 	{
 		FILE* file = fopen("a.txt", "r");
