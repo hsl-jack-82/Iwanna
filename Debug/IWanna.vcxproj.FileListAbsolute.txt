@@ -1,0 +1,2 @@
+D:\C++\IWanna\Debug\IWanna.exe
+D:\C++\IWanna\Debug\IWanna.pdb
